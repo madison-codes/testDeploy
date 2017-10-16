@@ -1,0 +1,70 @@
+.overview-page {
+    margin-top: $nav-height;
+    h1 {
+        text-transform: none;
+        color: $complimentary-three;
+        font-size: 24px;
+    }
+    .overview-intro-section {
+        margin: 20px;
+        padding-top: 25px;
+        max-width: 700px;
+        h1 {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+    .overview-intro-section-sdk-list-container {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 250px;
+        margin-top: 100px;
+        max-width: 900px;
+        button {
+            width: 100px;
+            height: 100px;
+        }
+        br {
+            padding: 20px;
+        }
+        .overview-sdk-item {
+            display: flex;
+            justify-content: center;
+        }
+        .overview-sdk-item-web {
+            height: 300px;
+            width: 50%;
+        }
+        .overview-sdk-item-server {
+            height: 300px;
+            width: 50%;
+        }
+        .overview-sdk-item-content {
+            padding: 30px;
+            height: 40px;
+            line-height: 30px;
+        }
+        .chip-coming-soon{
+            position: absolute;
+            top: 350px;
+
+        }
+    }
+    .overview-get-started-page {
+        background: $main-color-two;
+        margin: 0;
+        padding: 50px;
+        h1 {
+            text-transform: none;
+            color: white;
+            font-size: 32px;
+        }
+        .overview-logo {
+            margin-bottom: 30px;
+        }
+        button {
+            margin-top: 30px;
+        }
+    }
+}

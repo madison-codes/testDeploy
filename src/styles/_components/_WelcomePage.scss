@@ -1,0 +1,39 @@
+.welcome-page {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    .main-logo {
+        padding: 40px;
+    }
+    .home-title-holders {
+        align-items: space-around;
+        border-left: 1px solid $grayscale-two;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 50px;
+        padding: 30px 30px 10px 30px;
+        h1 {
+            margin: 0 0 20px 0;
+        }
+        h2 {
+            color: #506774;
+            font-size: 24px;
+        }
+    }
+    button {
+        background: #E10700;
+        color: white;
+        margin: 30px 0;
+    }
+}
+
+@include breakpoint(l) {
+    .welcome-page {
+        flex-direction: column;
+        .main-logo {
+            padding: 0;
+        }
+    }
+}
