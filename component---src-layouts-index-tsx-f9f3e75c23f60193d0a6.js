@@ -12728,7 +12728,7 @@ webpackJsonp([22676092666560,60335399758886],{
 	const Toolbar_1 = __webpack_require__("./node_modules/material-ui/Toolbar/index.js");
 	const LogoFull_1 = __webpack_require__("./src/components/icons/LogoFull.tsx");
 	exports.default = () => {
-	    return React.createElement(AppBar_1.default, { style: { backgroundColor: "#212121" } }, React.createElement(Toolbar_1.default, null, React.createElement(gatsby_link_1.default, { to: "/" }, React.createElement(LogoFull_1.default, { styleHandle: "logo", width: "300px" }))));
+	    return React.createElement("div", { className: 'nav-bar-one' }, React.createElement(AppBar_1.default, { style: { backgroundColor: "#212121" } }, React.createElement(Toolbar_1.default, null, React.createElement(gatsby_link_1.default, { to: "/" }, React.createElement(LogoFull_1.default, { styleHandle: "logo", width: "300px" })))));
 	};
 
 /***/ }),
@@ -12914,4 +12914,4 @@ webpackJsonp([22676092666560,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-tsx-9fa79dc6a8338738cdc4.js.map
+//# sourceMappingURL=component---src-layouts-index-tsx-f9f3e75c23f60193d0a6.js.map
