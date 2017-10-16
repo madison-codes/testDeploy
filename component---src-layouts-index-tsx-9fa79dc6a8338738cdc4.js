@@ -12758,7 +12758,7 @@ webpackJsonp([22676092666560,60335399758886],{
 	const List_1 = __webpack_require__("./node_modules/material-ui/List/index.js");
 	const Guide_1 = __webpack_require__("./src/components/icons/Guide.tsx");
 	exports.default = ({ open }) => {
-	    return React.createElement(List_1.default, null, React.createElement(List_1.ListItem, { className: "title-nav-item" }, React.createElement(Guide_1.default, { styleHandle: "logo", width: "30px", height: "30px" }), React.createElement(List_1.ListItemText, { primary: "Test" })), React.createElement(List_1.ListItem, { button: true, disabled: !open }, React.createElement(gatsby_link_1.default, { to: "/docs/guides/document" }, React.createElement(List_1.ListItemText, { inset: true, secondary: "Document" }))));
+	    return React.createElement(List_1.default, null, React.createElement(List_1.ListItem, { className: "title-nav-item" }, React.createElement(Guide_1.default, { styleHandle: "logo", width: "30px", height: "30px" }), React.createElement(List_1.ListItemText, { primary: "Test" })), React.createElement(List_1.ListItem, { button: true, disabled: !open }, React.createElement(gatsby_link_1.default, { to: "/docs/guides/document" }, React.createElement(List_1.ListItemText, { inset: true, secondary: "Document" }))), React.createElement(List_1.ListItem, { button: true, disabled: !open }, React.createElement(gatsby_link_1.default, { to: "/docs/guides/test" }, React.createElement(List_1.ListItemText, { inset: true, secondary: "Test" }))));
 	};
 
 /***/ }),
@@ -12914,4 +12914,4 @@ webpackJsonp([22676092666560,60335399758886],{
 /***/ })
 
 });
-//# sourceMappingURL=component---src-layouts-index-tsx-6085f0493fe2ec6b2f0e.js.map
+//# sourceMappingURL=component---src-layouts-index-tsx-9fa79dc6a8338738cdc4.js.map
